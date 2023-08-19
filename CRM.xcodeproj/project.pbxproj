@@ -13,6 +13,29 @@
 		12E07D892A909D1700A276DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E07D872A909D1700A276DD /* Main.storyboard */; };
 		12E07D8B2A909D1800A276DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E07D8A2A909D1800A276DD /* Assets.xcassets */; };
 		12E07D8E2A909D1900A276DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E07D8C2A909D1900A276DD /* LaunchScreen.storyboard */; };
+		12E07D992A909F1200A276DD /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07D982A909F1200A276DD /* ProductService.swift */; };
+		12E07D9B2A909F4E00A276DD /* ContactService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07D9A2A909F4E00A276DD /* ContactService.swift */; };
+		12E07D9E2A909F9B00A276DD /* ContactEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07D9D2A909F9B00A276DD /* ContactEntity.swift */; };
+		12E07DA02A909FB400A276DD /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07D9F2A909FB400A276DD /* UserEntity.swift */; };
+		12E07DA22A909FDB00A276DD /* DealEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DA12A909FDB00A276DD /* DealEntity.swift */; };
+		12E07DA42A90A00700A276DD /* DealFilterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DA32A90A00700A276DD /* DealFilterEntity.swift */; };
+		12E07DA62A90A01F00A276DD /* TaskEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DA52A90A01F00A276DD /* TaskEntity.swift */; };
+		12E07DA82A90A03500A276DD /* TaskFilterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DA72A90A03500A276DD /* TaskFilterEntity.swift */; };
+		12E07DAA2A90A04D00A276DD /* CompanyEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DA92A90A04D00A276DD /* CompanyEntity.swift */; };
+		12E07DAC2A90A06000A276DD /* CompanyFilterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DAB2A90A06000A276DD /* CompanyFilterEntity.swift */; };
+		12E07DAE2A90A08700A276DD /* CompanyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DAD2A90A08700A276DD /* CompanyService.swift */; };
+		12E07DB02A90A09800A276DD /* DealService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DAF2A90A09800A276DD /* DealService.swift */; };
+		12E07DB22A90A0A800A276DD /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DB12A90A0A800A276DD /* TaskService.swift */; };
+		12E07DB62A90A0E200A276DD /* AudioRecordServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DB52A90A0E200A276DD /* AudioRecordServiceDelegate.swift */; };
+		12E07DB82A90A0FA00A276DD /* AudioRecordServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DB72A90A0FA00A276DD /* AudioRecordServiceProtocol.swift */; };
+		12E07DBA2A90A10A00A276DD /* AudioRecordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DB92A90A10A00A276DD /* AudioRecordService.swift */; };
+		12E07DBC2A90A13A00A276DD /* AudioRecordServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DBB2A90A13A00A276DD /* AudioRecordServiceError.swift */; };
+		12E07DBE2A90A15500A276DD /* NLPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DBD2A90A15500A276DD /* NLPService.swift */; };
+		12E07DC02A90A19000A276DD /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DBF2A90A19000A276DD /* MessageService.swift */; };
+		12E07DC42A90A28400A276DD /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DC32A90A28400A276DD /* BaseCoordinator.swift */; };
+		12E07DC62A90A29A00A276DD /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DC52A90A29A00A276DD /* ApplicationCoordinator.swift */; };
+		12E07DC82A90A2BC00A276DD /* WelcomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DC72A90A2BC00A276DD /* WelcomeCoordinator.swift */; };
+		12E07DCA2A90A2D000A276DD /* AuthorizationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DC92A90A2D000A276DD /* AuthorizationCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +47,29 @@
 		12E07D8A2A909D1800A276DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12E07D8D2A909D1900A276DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12E07D8F2A909D1900A276DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E07D982A909F1200A276DD /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		12E07D9A2A909F4E00A276DD /* ContactService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactService.swift; sourceTree = "<group>"; };
+		12E07D9D2A909F9B00A276DD /* ContactEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEntity.swift; sourceTree = "<group>"; };
+		12E07D9F2A909FB400A276DD /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		12E07DA12A909FDB00A276DD /* DealEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealEntity.swift; sourceTree = "<group>"; };
+		12E07DA32A90A00700A276DD /* DealFilterEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealFilterEntity.swift; sourceTree = "<group>"; };
+		12E07DA52A90A01F00A276DD /* TaskEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEntity.swift; sourceTree = "<group>"; };
+		12E07DA72A90A03500A276DD /* TaskFilterEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFilterEntity.swift; sourceTree = "<group>"; };
+		12E07DA92A90A04D00A276DD /* CompanyEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyEntity.swift; sourceTree = "<group>"; };
+		12E07DAB2A90A06000A276DD /* CompanyFilterEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyFilterEntity.swift; sourceTree = "<group>"; };
+		12E07DAD2A90A08700A276DD /* CompanyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyService.swift; sourceTree = "<group>"; };
+		12E07DAF2A90A09800A276DD /* DealService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealService.swift; sourceTree = "<group>"; };
+		12E07DB12A90A0A800A276DD /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
+		12E07DB52A90A0E200A276DD /* AudioRecordServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordServiceDelegate.swift; sourceTree = "<group>"; };
+		12E07DB72A90A0FA00A276DD /* AudioRecordServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordServiceProtocol.swift; sourceTree = "<group>"; };
+		12E07DB92A90A10A00A276DD /* AudioRecordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordService.swift; sourceTree = "<group>"; };
+		12E07DBB2A90A13A00A276DD /* AudioRecordServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordServiceError.swift; sourceTree = "<group>"; };
+		12E07DBD2A90A15500A276DD /* NLPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLPService.swift; sourceTree = "<group>"; };
+		12E07DBF2A90A19000A276DD /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		12E07DC32A90A28400A276DD /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		12E07DC52A90A29A00A276DD /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		12E07DC72A90A2BC00A276DD /* WelcomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCoordinator.swift; sourceTree = "<group>"; };
+		12E07DC92A90A2D000A276DD /* AuthorizationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +102,102 @@
 		12E07D802A909D1700A276DD /* CRM */ = {
 			isa = PBXGroup;
 			children = (
+				12E07DC12A90A1E500A276DD /* Network */,
+				12E07D962A909EC100A276DD /* Resources */,
+				12E07D952A909EBC00A276DD /* Sources */,
+			);
+			path = CRM;
+			sourceTree = "<group>";
+		};
+		12E07D952A909EBC00A276DD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				12E07DC22A90A26C00A276DD /* Coordinators */,
+				12E07D9C2A909F8A00A276DD /* Entities */,
+				12E07D972A909EFE00A276DD /* Services */,
 				12E07D812A909D1700A276DD /* AppDelegate.swift */,
 				12E07D832A909D1700A276DD /* SceneDelegate.swift */,
 				12E07D852A909D1700A276DD /* ViewController.swift */,
 				12E07D872A909D1700A276DD /* Main.storyboard */,
-				12E07D8A2A909D1800A276DD /* Assets.xcassets */,
 				12E07D8C2A909D1900A276DD /* LaunchScreen.storyboard */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		12E07D962A909EC100A276DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12E07D8A2A909D1800A276DD /* Assets.xcassets */,
 				12E07D8F2A909D1900A276DD /* Info.plist */,
 			);
-			path = CRM;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		12E07D972A909EFE00A276DD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				12E07DB32A90A0BE00A276DD /* Message */,
+				12E07D982A909F1200A276DD /* ProductService.swift */,
+				12E07DAD2A90A08700A276DD /* CompanyService.swift */,
+				12E07DAF2A90A09800A276DD /* DealService.swift */,
+				12E07DB12A90A0A800A276DD /* TaskService.swift */,
+				12E07D9A2A909F4E00A276DD /* ContactService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		12E07D9C2A909F8A00A276DD /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				12E07D9D2A909F9B00A276DD /* ContactEntity.swift */,
+				12E07D9F2A909FB400A276DD /* UserEntity.swift */,
+				12E07DA12A909FDB00A276DD /* DealEntity.swift */,
+				12E07DA32A90A00700A276DD /* DealFilterEntity.swift */,
+				12E07DA52A90A01F00A276DD /* TaskEntity.swift */,
+				12E07DA72A90A03500A276DD /* TaskFilterEntity.swift */,
+				12E07DA92A90A04D00A276DD /* CompanyEntity.swift */,
+				12E07DAB2A90A06000A276DD /* CompanyFilterEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		12E07DB32A90A0BE00A276DD /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				12E07DB42A90A0CE00A276DD /* AudioRecord */,
+				12E07DBD2A90A15500A276DD /* NLPService.swift */,
+				12E07DBF2A90A19000A276DD /* MessageService.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		12E07DB42A90A0CE00A276DD /* AudioRecord */ = {
+			isa = PBXGroup;
+			children = (
+				12E07DB52A90A0E200A276DD /* AudioRecordServiceDelegate.swift */,
+				12E07DB72A90A0FA00A276DD /* AudioRecordServiceProtocol.swift */,
+				12E07DB92A90A10A00A276DD /* AudioRecordService.swift */,
+				12E07DBB2A90A13A00A276DD /* AudioRecordServiceError.swift */,
+			);
+			path = AudioRecord;
+			sourceTree = "<group>";
+		};
+		12E07DC12A90A1E500A276DD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		12E07DC22A90A26C00A276DD /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				12E07DC32A90A28400A276DD /* BaseCoordinator.swift */,
+				12E07DC52A90A29A00A276DD /* ApplicationCoordinator.swift */,
+				12E07DC72A90A2BC00A276DD /* WelcomeCoordinator.swift */,
+				12E07DC92A90A2D000A276DD /* AuthorizationCoordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +271,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E07DBC2A90A13A00A276DD /* AudioRecordServiceError.swift in Sources */,
+				12E07DB22A90A0A800A276DD /* TaskService.swift in Sources */,
 				12E07D862A909D1700A276DD /* ViewController.swift in Sources */,
+				12E07D992A909F1200A276DD /* ProductService.swift in Sources */,
+				12E07DBE2A90A15500A276DD /* NLPService.swift in Sources */,
 				12E07D822A909D1700A276DD /* AppDelegate.swift in Sources */,
+				12E07DAE2A90A08700A276DD /* CompanyService.swift in Sources */,
+				12E07D9B2A909F4E00A276DD /* ContactService.swift in Sources */,
+				12E07DAC2A90A06000A276DD /* CompanyFilterEntity.swift in Sources */,
+				12E07DB02A90A09800A276DD /* DealService.swift in Sources */,
+				12E07DB82A90A0FA00A276DD /* AudioRecordServiceProtocol.swift in Sources */,
+				12E07DA82A90A03500A276DD /* TaskFilterEntity.swift in Sources */,
+				12E07DC82A90A2BC00A276DD /* WelcomeCoordinator.swift in Sources */,
+				12E07DB62A90A0E200A276DD /* AudioRecordServiceDelegate.swift in Sources */,
+				12E07DA02A909FB400A276DD /* UserEntity.swift in Sources */,
+				12E07DAA2A90A04D00A276DD /* CompanyEntity.swift in Sources */,
+				12E07DA62A90A01F00A276DD /* TaskEntity.swift in Sources */,
+				12E07DC42A90A28400A276DD /* BaseCoordinator.swift in Sources */,
 				12E07D842A909D1700A276DD /* SceneDelegate.swift in Sources */,
+				12E07DC02A90A19000A276DD /* MessageService.swift in Sources */,
+				12E07DCA2A90A2D000A276DD /* AuthorizationCoordinator.swift in Sources */,
+				12E07DA22A909FDB00A276DD /* DealEntity.swift in Sources */,
+				12E07DA42A90A00700A276DD /* DealFilterEntity.swift in Sources */,
+				12E07D9E2A909F9B00A276DD /* ContactEntity.swift in Sources */,
+				12E07DBA2A90A10A00A276DD /* AudioRecordService.swift in Sources */,
+				12E07DC62A90A29A00A276DD /* ApplicationCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
