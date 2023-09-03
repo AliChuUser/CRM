@@ -1,0 +1,62 @@
+syntax = "proto3";
+
+message NLPMessage {
+    string user_id = 1; //required
+    int64 message_id = 2; //required
+    int32 last = 3; // false = -1 | 0 - undefined | true = 1 // default=false //required
+    string token = 4; //optional
+    string user_channel = 11; //required
+    string vps_token = 12; //optional
+    repeated DevContext dev_context = 13; //optional
+    string message_name = 14; //optional
+    oneof content {
+        Voice voice = 5;
+        Text text = 6;
+        SystemMessage system_message = 7; // JSON as String.
+        Device device = 8;
+        Settings settings = 9;
+        Status status = 10;
+    }
+}
+  
+message Device {
+    string client_type = 1;
+    string channel = 2;
+    string channel_version = 3;
+    string platform_name = 4;
+    string platform_version = 5;
+    string sdk_version = 6;
+    string protocol_version = 7;
+}
+  
+message Voice {
+    bytes data = 1;
+}
+  
+message Text {
+    string data = 1;
+}
+  
+message SystemMessage {
+    string data = 1;
+}
+ 
+message Settings {
+    int32 dubbing = 1; // false = -1 | 0 - undefined | true = 1 // default:true
+    int32 echo = 2; // false = -1 | 0 - undefined | true = 1 // default:false
+    string tts_engine = 3; // tts engine alias
+    string stt_engine = 4;// stt engine alias
+    int32 stt_auto_stop = 5;//
+    int32 dev_mode = 6;// trace enabler
+}
+ 
+message Status {
+    int32 code = 1;
+    string description = 2;
+}
+
+message DevContext {
+    string name = 1;
+    int64 timestamp_ms = 2;
+    string data = 3;
+}

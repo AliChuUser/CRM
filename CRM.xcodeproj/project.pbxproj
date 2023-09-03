@@ -36,6 +36,64 @@
 		12E07DC62A90A29A00A276DD /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DC52A90A29A00A276DD /* ApplicationCoordinator.swift */; };
 		12E07DC82A90A2BC00A276DD /* WelcomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DC72A90A2BC00A276DD /* WelcomeCoordinator.swift */; };
 		12E07DCA2A90A2D000A276DD /* AuthorizationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DC92A90A2D000A276DD /* AuthorizationCoordinator.swift */; };
+		12E07DD72AA50C8E00A276DD /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DD62AA50C8E00A276DD /* Reachability.swift */; };
+		12E07DD92AA50CDA00A276DD /* Encodable+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DD82AA50CDA00A276DD /* Encodable+JSON.swift */; };
+		12E07DDB2AA50D0900A276DD /* ServiceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DDA2AA50D0900A276DD /* ServiceConfig.swift */; };
+		12E07DE02AA50DB200A276DD /* NLPConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DDF2AA50DB200A276DD /* NLPConfiguration.swift */; };
+		12E07DE32AA50E3800A276DD /* NLPMessage.proto in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DE22AA50E3800A276DD /* NLPMessage.proto */; };
+		12E07DE52AA50E5600A276DD /* NLPMessage.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DE42AA50E5600A276DD /* NLPMessage.pb.swift */; };
+		12E07DE72AA50E6600A276DD /* NLPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DE62AA50E6600A276DD /* NLPMessage.swift */; };
+		12E07DEA2AA50EBC00A276DD /* WebSocketConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DE92AA50EBC00A276DD /* WebSocketConfigurationProtocol.swift */; };
+		12E07DED2AA50EE500A276DD /* WebSocketConnectionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DEC2AA50EE500A276DD /* WebSocketConnectionProtocol.swift */; };
+		12E07DEF2AA50F0B00A276DD /* WebSocketConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DEE2AA50F0B00A276DD /* WebSocketConnection.swift */; };
+		12E07DF12AA50F3800A276DD /* WebSocketError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DF02AA50F3800A276DD /* WebSocketError.swift */; };
+		12E07DF32AA50F5300A276DD /* WebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DF22AA50F5300A276DD /* WebSocketClient.swift */; };
+		12E07DF62AA50F8000A276DD /* WebSocketMessageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DF52AA50F8000A276DD /* WebSocketMessageProtocol.swift */; };
+		12E07DF92AA50FB900A276DD /* ListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DF82AA50FB900A276DD /* ListRequestModel.swift */; };
+		12E07DFC2AA50FEC00A276DD /* TasksOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DFB2AA50FEC00A276DD /* TasksOperation.swift */; };
+		12E07DFE2AA5100C00A276DD /* TasksListResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DFD2AA5100C00A276DD /* TasksListResponseModel.swift */; };
+		12E07E002AA5102200A276DD /* ChangeTaskStatusResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07DFF2AA5102200A276DD /* ChangeTaskStatusResponseModel.swift */; };
+		12E07E022AA5103300A276DD /* TaskRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E012AA5103300A276DD /* TaskRequestModel.swift */; };
+		12E07E042AA5104600A276DD /* TaskResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E032AA5104600A276DD /* TaskResponseModel.swift */; };
+		12E07E062AA5105A00A276DD /* TaskCommentListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E052AA5105A00A276DD /* TaskCommentListRequestModel.swift */; };
+		12E07E082AA5106B00A276DD /* TaskCommentListResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E072AA5106B00A276DD /* TaskCommentListResponseModel.swift */; };
+		12E07E0A2AA5107C00A276DD /* CreateTaskCommentRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E092AA5107C00A276DD /* CreateTaskCommentRequestModel.swift */; };
+		12E07E0C2AA5109100A276DD /* EditTaskCommentRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E0B2AA5109100A276DD /* EditTaskCommentRequestModel.swift */; };
+		12E07E0E2AA510A300A276DD /* TaskCommentResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E0D2AA510A300A276DD /* TaskCommentResponseModel.swift */; };
+		12E07E112AA510CB00A276DD /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E102AA510CB00A276DD /* Service.swift */; };
+		12E07E132AA510E400A276DD /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E122AA510E400A276DD /* ServiceProtocol.swift */; };
+		12E07E152AA510FA00A276DD /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E142AA510FA00A276DD /* Request.swift */; };
+		12E07E182AA5111C00A276DD /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E172AA5111C00A276DD /* RequestProtocol.swift */; };
+		12E07E1A2AA517D900A276DD /* ResponseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E192AA517D900A276DD /* ResponseProtocol.swift */; };
+		12E07E1D2AA5180C00A276DD /* AuthorizationOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E1C2AA5180C00A276DD /* AuthorizationOperation.swift */; };
+		12E07E1F2AA5182800A276DD /* AuthorizationResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E1E2AA5182800A276DD /* AuthorizationResponseModel.swift */; };
+		12E07E222AA5187D00A276DD /* CompaniesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E212AA5187D00A276DD /* CompaniesOperation.swift */; };
+		12E07E242AA5189300A276DD /* CompaniesListResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E232AA5189300A276DD /* CompaniesListResponseModel.swift */; };
+		12E07E262AA518C900A276DD /* CompanyResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E252AA518C900A276DD /* CompanyResponseModel.swift */; };
+		12E07E282AA518FF00A276DD /* CompanyRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E272AA518FF00A276DD /* CompanyRequestModel.swift */; };
+		12E07E2A2AA5191100A276DD /* CompanyChangeHistoryResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E292AA5191100A276DD /* CompanyChangeHistoryResponseModel.swift */; };
+		12E07E2C2AA5192500A276DD /* CommentsListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E2B2AA5192500A276DD /* CommentsListRequestModel.swift */; };
+		12E07E2E2AA5193400A276DD /* CompanyCommentsListResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E2D2AA5193400A276DD /* CompanyCommentsListResponseModel.swift */; };
+		12E07E302AA5194700A276DD /* AddCompanyCommentRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E2F2AA5194700A276DD /* AddCompanyCommentRequestModel.swift */; };
+		12E07E322AA5195800A276DD /* CompanyCommentResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E312AA5195800A276DD /* CompanyCommentResponseModel.swift */; };
+		12E07E342AA5196B00A276DD /* EditCompanyCommentRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E332AA5196B00A276DD /* EditCompanyCommentRequestModel.swift */; };
+		12E07E372AA5199100A276DD /* DealsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E362AA5199100A276DD /* DealsOperation.swift */; };
+		12E07E392AA519B100A276DD /* DealsListResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E382AA519B100A276DD /* DealsListResponseModel.swift */; };
+		12E07E3B2AA51A6000A276DD /* CreateDealRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E3A2AA51A6000A276DD /* CreateDealRequestModel.swift */; };
+		12E07E3D2AA51A7500A276DD /* CreateDealResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E3C2AA51A7500A276DD /* CreateDealResponseModel.swift */; };
+		12E07E3F2AA51A8700A276DD /* UpdateDealStatusRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E3E2AA51A8700A276DD /* UpdateDealStatusRequestModel.swift */; };
+		12E07E412AA51A9A00A276DD /* UpdateDealStatusResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E402AA51A9A00A276DD /* UpdateDealStatusResponseModel.swift */; };
+		12E07E432AA51AAF00A276DD /* DealCardRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E422AA51AAF00A276DD /* DealCardRequestModel.swift */; };
+		12E07E452AA51ABF00A276DD /* DealCardResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E442AA51ABF00A276DD /* DealCardResponseModel.swift */; };
+		12E07E472AA51ACF00A276DD /* DealGeneralInfoRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E462AA51ACF00A276DD /* DealGeneralInfoRequestModel.swift */; };
+		12E07E492AA51AE000A276DD /* DealGeneralInfoResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E482AA51AE000A276DD /* DealGeneralInfoResponseModel.swift */; };
+		12E07E4B2AA51AF500A276DD /* DealStatusChangeHistoryRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E4A2AA51AF500A276DD /* DealStatusChangeHistoryRequestModel.swift */; };
+		12E07E4D2AA51B0600A276DD /* DealStatusChangeHistoryResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E4C2AA51B0600A276DD /* DealStatusChangeHistoryResponseModel.swift */; };
+		12E07E4F2AA51B1700A276DD /* EditDealCommentRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E4E2AA51B1700A276DD /* EditDealCommentRequestModel.swift */; };
+		12E07E512AA51B2C00A276DD /* AddDealCommentRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E502AA51B2C00A276DD /* AddDealCommentRequestModel.swift */; };
+		12E07E532AA51B4000A276DD /* DeleteDealCommentRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E522AA51B4000A276DD /* DeleteDealCommentRequestModel.swift */; };
+		12E07E552AA51B5000A276DD /* DealCommentsListResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E542AA51B5000A276DD /* DealCommentsListResponseModel.swift */; };
+		12E07E572AA51B6300A276DD /* DealCommentResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07E562AA51B6300A276DD /* DealCommentResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +128,64 @@
 		12E07DC52A90A29A00A276DD /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		12E07DC72A90A2BC00A276DD /* WelcomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCoordinator.swift; sourceTree = "<group>"; };
 		12E07DC92A90A2D000A276DD /* AuthorizationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationCoordinator.swift; sourceTree = "<group>"; };
+		12E07DD62AA50C8E00A276DD /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		12E07DD82AA50CDA00A276DD /* Encodable+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+JSON.swift"; sourceTree = "<group>"; };
+		12E07DDA2AA50D0900A276DD /* ServiceConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceConfig.swift; sourceTree = "<group>"; };
+		12E07DDF2AA50DB200A276DD /* NLPConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLPConfiguration.swift; sourceTree = "<group>"; };
+		12E07DE22AA50E3800A276DD /* NLPMessage.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = NLPMessage.proto; sourceTree = "<group>"; };
+		12E07DE42AA50E5600A276DD /* NLPMessage.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLPMessage.pb.swift; sourceTree = "<group>"; };
+		12E07DE62AA50E6600A276DD /* NLPMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLPMessage.swift; sourceTree = "<group>"; };
+		12E07DE92AA50EBC00A276DD /* WebSocketConfigurationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketConfigurationProtocol.swift; sourceTree = "<group>"; };
+		12E07DEC2AA50EE500A276DD /* WebSocketConnectionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketConnectionProtocol.swift; sourceTree = "<group>"; };
+		12E07DEE2AA50F0B00A276DD /* WebSocketConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketConnection.swift; sourceTree = "<group>"; };
+		12E07DF02AA50F3800A276DD /* WebSocketError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketError.swift; sourceTree = "<group>"; };
+		12E07DF22AA50F5300A276DD /* WebSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketClient.swift; sourceTree = "<group>"; };
+		12E07DF52AA50F8000A276DD /* WebSocketMessageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketMessageProtocol.swift; sourceTree = "<group>"; };
+		12E07DF82AA50FB900A276DD /* ListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRequestModel.swift; sourceTree = "<group>"; };
+		12E07DFB2AA50FEC00A276DD /* TasksOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksOperation.swift; sourceTree = "<group>"; };
+		12E07DFD2AA5100C00A276DD /* TasksListResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListResponseModel.swift; sourceTree = "<group>"; };
+		12E07DFF2AA5102200A276DD /* ChangeTaskStatusResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeTaskStatusResponseModel.swift; sourceTree = "<group>"; };
+		12E07E012AA5103300A276DD /* TaskRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRequestModel.swift; sourceTree = "<group>"; };
+		12E07E032AA5104600A276DD /* TaskResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskResponseModel.swift; sourceTree = "<group>"; };
+		12E07E052AA5105A00A276DD /* TaskCommentListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCommentListRequestModel.swift; sourceTree = "<group>"; };
+		12E07E072AA5106B00A276DD /* TaskCommentListResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCommentListResponseModel.swift; sourceTree = "<group>"; };
+		12E07E092AA5107C00A276DD /* CreateTaskCommentRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskCommentRequestModel.swift; sourceTree = "<group>"; };
+		12E07E0B2AA5109100A276DD /* EditTaskCommentRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskCommentRequestModel.swift; sourceTree = "<group>"; };
+		12E07E0D2AA510A300A276DD /* TaskCommentResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCommentResponseModel.swift; sourceTree = "<group>"; };
+		12E07E102AA510CB00A276DD /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		12E07E122AA510E400A276DD /* ServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		12E07E142AA510FA00A276DD /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		12E07E172AA5111C00A276DD /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		12E07E192AA517D900A276DD /* ResponseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseProtocol.swift; sourceTree = "<group>"; };
+		12E07E1C2AA5180C00A276DD /* AuthorizationOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationOperation.swift; sourceTree = "<group>"; };
+		12E07E1E2AA5182800A276DD /* AuthorizationResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationResponseModel.swift; sourceTree = "<group>"; };
+		12E07E212AA5187D00A276DD /* CompaniesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesOperation.swift; sourceTree = "<group>"; };
+		12E07E232AA5189300A276DD /* CompaniesListResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesListResponseModel.swift; sourceTree = "<group>"; };
+		12E07E252AA518C900A276DD /* CompanyResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyResponseModel.swift; sourceTree = "<group>"; };
+		12E07E272AA518FF00A276DD /* CompanyRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyRequestModel.swift; sourceTree = "<group>"; };
+		12E07E292AA5191100A276DD /* CompanyChangeHistoryResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyChangeHistoryResponseModel.swift; sourceTree = "<group>"; };
+		12E07E2B2AA5192500A276DD /* CommentsListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsListRequestModel.swift; sourceTree = "<group>"; };
+		12E07E2D2AA5193400A276DD /* CompanyCommentsListResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCommentsListResponseModel.swift; sourceTree = "<group>"; };
+		12E07E2F2AA5194700A276DD /* AddCompanyCommentRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCompanyCommentRequestModel.swift; sourceTree = "<group>"; };
+		12E07E312AA5195800A276DD /* CompanyCommentResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCommentResponseModel.swift; sourceTree = "<group>"; };
+		12E07E332AA5196B00A276DD /* EditCompanyCommentRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCompanyCommentRequestModel.swift; sourceTree = "<group>"; };
+		12E07E362AA5199100A276DD /* DealsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsOperation.swift; sourceTree = "<group>"; };
+		12E07E382AA519B100A276DD /* DealsListResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsListResponseModel.swift; sourceTree = "<group>"; };
+		12E07E3A2AA51A6000A276DD /* CreateDealRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDealRequestModel.swift; sourceTree = "<group>"; };
+		12E07E3C2AA51A7500A276DD /* CreateDealResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDealResponseModel.swift; sourceTree = "<group>"; };
+		12E07E3E2AA51A8700A276DD /* UpdateDealStatusRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDealStatusRequestModel.swift; sourceTree = "<group>"; };
+		12E07E402AA51A9A00A276DD /* UpdateDealStatusResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDealStatusResponseModel.swift; sourceTree = "<group>"; };
+		12E07E422AA51AAF00A276DD /* DealCardRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCardRequestModel.swift; sourceTree = "<group>"; };
+		12E07E442AA51ABF00A276DD /* DealCardResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCardResponseModel.swift; sourceTree = "<group>"; };
+		12E07E462AA51ACF00A276DD /* DealGeneralInfoRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGeneralInfoRequestModel.swift; sourceTree = "<group>"; };
+		12E07E482AA51AE000A276DD /* DealGeneralInfoResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGeneralInfoResponseModel.swift; sourceTree = "<group>"; };
+		12E07E4A2AA51AF500A276DD /* DealStatusChangeHistoryRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealStatusChangeHistoryRequestModel.swift; sourceTree = "<group>"; };
+		12E07E4C2AA51B0600A276DD /* DealStatusChangeHistoryResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealStatusChangeHistoryResponseModel.swift; sourceTree = "<group>"; };
+		12E07E4E2AA51B1700A276DD /* EditDealCommentRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDealCommentRequestModel.swift; sourceTree = "<group>"; };
+		12E07E502AA51B2C00A276DD /* AddDealCommentRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDealCommentRequestModel.swift; sourceTree = "<group>"; };
+		12E07E522AA51B4000A276DD /* DeleteDealCommentRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDealCommentRequestModel.swift; sourceTree = "<group>"; };
+		12E07E542AA51B5000A276DD /* DealCommentsListResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCommentsListResponseModel.swift; sourceTree = "<group>"; };
+		12E07E562AA51B6300A276DD /* DealCommentResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCommentResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +301,16 @@
 		12E07DC12A90A1E500A276DD /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				12E07E352AA5198500A276DD /* Deals */,
+				12E07E202AA5186100A276DD /* Companies */,
+				12E07E1B2AA5180000A276DD /* Authorization */,
+				12E07E0F2AA510BF00A276DD /* Service */,
+				12E07DFA2AA50FDC00A276DD /* Tasks */,
+				12E07DF72AA50FAD00A276DD /* Common */,
+				12E07DDC2AA50D2A00A276DD /* WebSocket */,
+				12E07DD62AA50C8E00A276DD /* Reachability.swift */,
+				12E07DD82AA50CDA00A276DD /* Encodable+JSON.swift */,
+				12E07DDA2AA50D0900A276DD /* ServiceConfig.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -198,6 +324,166 @@
 				12E07DC92A90A2D000A276DD /* AuthorizationCoordinator.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		12E07DDC2AA50D2A00A276DD /* WebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				12E07DDE2AA50D4800A276DD /* NLP */,
+				12E07DDD2AA50D3900A276DD /* Core */,
+			);
+			path = WebSocket;
+			sourceTree = "<group>";
+		};
+		12E07DDD2AA50D3900A276DD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				12E07DF42AA50F7400A276DD /* Message */,
+				12E07DEB2AA50ED900A276DD /* Connection */,
+				12E07DE82AA50EA500A276DD /* Configuration */,
+				12E07DF02AA50F3800A276DD /* WebSocketError.swift */,
+				12E07DF22AA50F5300A276DD /* WebSocketClient.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		12E07DDE2AA50D4800A276DD /* NLP */ = {
+			isa = PBXGroup;
+			children = (
+				12E07DE12AA50E0400A276DD /* Proto */,
+				12E07DDF2AA50DB200A276DD /* NLPConfiguration.swift */,
+			);
+			path = NLP;
+			sourceTree = "<group>";
+		};
+		12E07DE12AA50E0400A276DD /* Proto */ = {
+			isa = PBXGroup;
+			children = (
+				12E07DE42AA50E5600A276DD /* NLPMessage.pb.swift */,
+				12E07DE22AA50E3800A276DD /* NLPMessage.proto */,
+				12E07DE62AA50E6600A276DD /* NLPMessage.swift */,
+			);
+			path = Proto;
+			sourceTree = "<group>";
+		};
+		12E07DE82AA50EA500A276DD /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				12E07DE92AA50EBC00A276DD /* WebSocketConfigurationProtocol.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		12E07DEB2AA50ED900A276DD /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				12E07DEC2AA50EE500A276DD /* WebSocketConnectionProtocol.swift */,
+				12E07DEE2AA50F0B00A276DD /* WebSocketConnection.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		12E07DF42AA50F7400A276DD /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				12E07DF52AA50F8000A276DD /* WebSocketMessageProtocol.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		12E07DF72AA50FAD00A276DD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				12E07DF82AA50FB900A276DD /* ListRequestModel.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		12E07DFA2AA50FDC00A276DD /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				12E07DFB2AA50FEC00A276DD /* TasksOperation.swift */,
+				12E07DFD2AA5100C00A276DD /* TasksListResponseModel.swift */,
+				12E07DFF2AA5102200A276DD /* ChangeTaskStatusResponseModel.swift */,
+				12E07E012AA5103300A276DD /* TaskRequestModel.swift */,
+				12E07E032AA5104600A276DD /* TaskResponseModel.swift */,
+				12E07E052AA5105A00A276DD /* TaskCommentListRequestModel.swift */,
+				12E07E072AA5106B00A276DD /* TaskCommentListResponseModel.swift */,
+				12E07E092AA5107C00A276DD /* CreateTaskCommentRequestModel.swift */,
+				12E07E0B2AA5109100A276DD /* EditTaskCommentRequestModel.swift */,
+				12E07E0D2AA510A300A276DD /* TaskCommentResponseModel.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		12E07E0F2AA510BF00A276DD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				12E07E162AA5110F00A276DD /* Protocols */,
+				12E07E102AA510CB00A276DD /* Service.swift */,
+				12E07E122AA510E400A276DD /* ServiceProtocol.swift */,
+				12E07E142AA510FA00A276DD /* Request.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		12E07E162AA5110F00A276DD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				12E07E172AA5111C00A276DD /* RequestProtocol.swift */,
+				12E07E192AA517D900A276DD /* ResponseProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		12E07E1B2AA5180000A276DD /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				12E07E1C2AA5180C00A276DD /* AuthorizationOperation.swift */,
+				12E07E1E2AA5182800A276DD /* AuthorizationResponseModel.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		12E07E202AA5186100A276DD /* Companies */ = {
+			isa = PBXGroup;
+			children = (
+				12E07E212AA5187D00A276DD /* CompaniesOperation.swift */,
+				12E07E232AA5189300A276DD /* CompaniesListResponseModel.swift */,
+				12E07E252AA518C900A276DD /* CompanyResponseModel.swift */,
+				12E07E272AA518FF00A276DD /* CompanyRequestModel.swift */,
+				12E07E292AA5191100A276DD /* CompanyChangeHistoryResponseModel.swift */,
+				12E07E2B2AA5192500A276DD /* CommentsListRequestModel.swift */,
+				12E07E2D2AA5193400A276DD /* CompanyCommentsListResponseModel.swift */,
+				12E07E2F2AA5194700A276DD /* AddCompanyCommentRequestModel.swift */,
+				12E07E312AA5195800A276DD /* CompanyCommentResponseModel.swift */,
+				12E07E332AA5196B00A276DD /* EditCompanyCommentRequestModel.swift */,
+			);
+			path = Companies;
+			sourceTree = "<group>";
+		};
+		12E07E352AA5198500A276DD /* Deals */ = {
+			isa = PBXGroup;
+			children = (
+				12E07E362AA5199100A276DD /* DealsOperation.swift */,
+				12E07E382AA519B100A276DD /* DealsListResponseModel.swift */,
+				12E07E3A2AA51A6000A276DD /* CreateDealRequestModel.swift */,
+				12E07E3C2AA51A7500A276DD /* CreateDealResponseModel.swift */,
+				12E07E3E2AA51A8700A276DD /* UpdateDealStatusRequestModel.swift */,
+				12E07E402AA51A9A00A276DD /* UpdateDealStatusResponseModel.swift */,
+				12E07E422AA51AAF00A276DD /* DealCardRequestModel.swift */,
+				12E07E442AA51ABF00A276DD /* DealCardResponseModel.swift */,
+				12E07E462AA51ACF00A276DD /* DealGeneralInfoRequestModel.swift */,
+				12E07E482AA51AE000A276DD /* DealGeneralInfoResponseModel.swift */,
+				12E07E4A2AA51AF500A276DD /* DealStatusChangeHistoryRequestModel.swift */,
+				12E07E4C2AA51B0600A276DD /* DealStatusChangeHistoryResponseModel.swift */,
+				12E07E4E2AA51B1700A276DD /* EditDealCommentRequestModel.swift */,
+				12E07E502AA51B2C00A276DD /* AddDealCommentRequestModel.swift */,
+				12E07E522AA51B4000A276DD /* DeleteDealCommentRequestModel.swift */,
+				12E07E542AA51B5000A276DD /* DealCommentsListResponseModel.swift */,
+				12E07E562AA51B6300A276DD /* DealCommentResponseModel.swift */,
+			);
+			path = Deals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,29 +558,87 @@
 			buildActionMask = 2147483647;
 			files = (
 				12E07DBC2A90A13A00A276DD /* AudioRecordServiceError.swift in Sources */,
+				12E07DFC2AA50FEC00A276DD /* TasksOperation.swift in Sources */,
+				12E07E152AA510FA00A276DD /* Request.swift in Sources */,
 				12E07DB22A90A0A800A276DD /* TaskService.swift in Sources */,
+				12E07E082AA5106B00A276DD /* TaskCommentListResponseModel.swift in Sources */,
 				12E07D862A909D1700A276DD /* ViewController.swift in Sources */,
+				12E07DEF2AA50F0B00A276DD /* WebSocketConnection.swift in Sources */,
+				12E07DDB2AA50D0900A276DD /* ServiceConfig.swift in Sources */,
+				12E07E322AA5195800A276DD /* CompanyCommentResponseModel.swift in Sources */,
 				12E07D992A909F1200A276DD /* ProductService.swift in Sources */,
+				12E07E182AA5111C00A276DD /* RequestProtocol.swift in Sources */,
 				12E07DBE2A90A15500A276DD /* NLPService.swift in Sources */,
+				12E07E0E2AA510A300A276DD /* TaskCommentResponseModel.swift in Sources */,
+				12E07E552AA51B5000A276DD /* DealCommentsListResponseModel.swift in Sources */,
+				12E07E452AA51ABF00A276DD /* DealCardResponseModel.swift in Sources */,
+				12E07E472AA51ACF00A276DD /* DealGeneralInfoRequestModel.swift in Sources */,
+				12E07DD72AA50C8E00A276DD /* Reachability.swift in Sources */,
+				12E07E1F2AA5182800A276DD /* AuthorizationResponseModel.swift in Sources */,
+				12E07E112AA510CB00A276DD /* Service.swift in Sources */,
 				12E07D822A909D1700A276DD /* AppDelegate.swift in Sources */,
+				12E07E242AA5189300A276DD /* CompaniesListResponseModel.swift in Sources */,
+				12E07E4D2AA51B0600A276DD /* DealStatusChangeHistoryResponseModel.swift in Sources */,
 				12E07DAE2A90A08700A276DD /* CompanyService.swift in Sources */,
+				12E07E512AA51B2C00A276DD /* AddDealCommentRequestModel.swift in Sources */,
+				12E07E3D2AA51A7500A276DD /* CreateDealResponseModel.swift in Sources */,
 				12E07D9B2A909F4E00A276DD /* ContactService.swift in Sources */,
+				12E07DD92AA50CDA00A276DD /* Encodable+JSON.swift in Sources */,
+				12E07E492AA51AE000A276DD /* DealGeneralInfoResponseModel.swift in Sources */,
 				12E07DAC2A90A06000A276DD /* CompanyFilterEntity.swift in Sources */,
+				12E07E432AA51AAF00A276DD /* DealCardRequestModel.swift in Sources */,
 				12E07DB02A90A09800A276DD /* DealService.swift in Sources */,
 				12E07DB82A90A0FA00A276DD /* AudioRecordServiceProtocol.swift in Sources */,
+				12E07E132AA510E400A276DD /* ServiceProtocol.swift in Sources */,
+				12E07E4F2AA51B1700A276DD /* EditDealCommentRequestModel.swift in Sources */,
+				12E07E572AA51B6300A276DD /* DealCommentResponseModel.swift in Sources */,
 				12E07DA82A90A03500A276DD /* TaskFilterEntity.swift in Sources */,
+				12E07E0A2AA5107C00A276DD /* CreateTaskCommentRequestModel.swift in Sources */,
+				12E07E392AA519B100A276DD /* DealsListResponseModel.swift in Sources */,
+				12E07DF62AA50F8000A276DD /* WebSocketMessageProtocol.swift in Sources */,
+				12E07E1D2AA5180C00A276DD /* AuthorizationOperation.swift in Sources */,
 				12E07DC82A90A2BC00A276DD /* WelcomeCoordinator.swift in Sources */,
+				12E07DFE2AA5100C00A276DD /* TasksListResponseModel.swift in Sources */,
+				12E07E302AA5194700A276DD /* AddCompanyCommentRequestModel.swift in Sources */,
 				12E07DB62A90A0E200A276DD /* AudioRecordServiceDelegate.swift in Sources */,
+				12E07E2A2AA5191100A276DD /* CompanyChangeHistoryResponseModel.swift in Sources */,
 				12E07DA02A909FB400A276DD /* UserEntity.swift in Sources */,
+				12E07E022AA5103300A276DD /* TaskRequestModel.swift in Sources */,
+				12E07E002AA5102200A276DD /* ChangeTaskStatusResponseModel.swift in Sources */,
 				12E07DAA2A90A04D00A276DD /* CompanyEntity.swift in Sources */,
+				12E07DED2AA50EE500A276DD /* WebSocketConnectionProtocol.swift in Sources */,
+				12E07E222AA5187D00A276DD /* CompaniesOperation.swift in Sources */,
 				12E07DA62A90A01F00A276DD /* TaskEntity.swift in Sources */,
+				12E07E0C2AA5109100A276DD /* EditTaskCommentRequestModel.swift in Sources */,
+				12E07E3F2AA51A8700A276DD /* UpdateDealStatusRequestModel.swift in Sources */,
+				12E07DEA2AA50EBC00A276DD /* WebSocketConfigurationProtocol.swift in Sources */,
+				12E07E4B2AA51AF500A276DD /* DealStatusChangeHistoryRequestModel.swift in Sources */,
 				12E07DC42A90A28400A276DD /* BaseCoordinator.swift in Sources */,
+				12E07E2C2AA5192500A276DD /* CommentsListRequestModel.swift in Sources */,
+				12E07DE02AA50DB200A276DD /* NLPConfiguration.swift in Sources */,
 				12E07D842A909D1700A276DD /* SceneDelegate.swift in Sources */,
+				12E07DF32AA50F5300A276DD /* WebSocketClient.swift in Sources */,
+				12E07E282AA518FF00A276DD /* CompanyRequestModel.swift in Sources */,
+				12E07E372AA5199100A276DD /* DealsOperation.swift in Sources */,
 				12E07DC02A90A19000A276DD /* MessageService.swift in Sources */,
 				12E07DCA2A90A2D000A276DD /* AuthorizationCoordinator.swift in Sources */,
 				12E07DA22A909FDB00A276DD /* DealEntity.swift in Sources */,
+				12E07DF92AA50FB900A276DD /* ListRequestModel.swift in Sources */,
+				12E07DE72AA50E6600A276DD /* NLPMessage.swift in Sources */,
+				12E07E532AA51B4000A276DD /* DeleteDealCommentRequestModel.swift in Sources */,
 				12E07DA42A90A00700A276DD /* DealFilterEntity.swift in Sources */,
+				12E07DF12AA50F3800A276DD /* WebSocketError.swift in Sources */,
+				12E07E412AA51A9A00A276DD /* UpdateDealStatusResponseModel.swift in Sources */,
+				12E07DE32AA50E3800A276DD /* NLPMessage.proto in Sources */,
+				12E07E342AA5196B00A276DD /* EditCompanyCommentRequestModel.swift in Sources */,
 				12E07D9E2A909F9B00A276DD /* ContactEntity.swift in Sources */,
+				12E07E042AA5104600A276DD /* TaskResponseModel.swift in Sources */,
+				12E07E062AA5105A00A276DD /* TaskCommentListRequestModel.swift in Sources */,
+				12E07E2E2AA5193400A276DD /* CompanyCommentsListResponseModel.swift in Sources */,
+				12E07E1A2AA517D900A276DD /* ResponseProtocol.swift in Sources */,
+				12E07E3B2AA51A6000A276DD /* CreateDealRequestModel.swift in Sources */,
+				12E07E262AA518C900A276DD /* CompanyResponseModel.swift in Sources */,
+				12E07DE52AA50E5600A276DD /* NLPMessage.pb.swift in Sources */,
 				12E07DBA2A90A10A00A276DD /* AudioRecordService.swift in Sources */,
 				12E07DC62A90A29A00A276DD /* ApplicationCoordinator.swift in Sources */,
 			);
