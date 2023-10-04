@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12090F082ACDE04E009D03FC /* UIViewController+Puller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F072ACDE04E009D03FC /* UIViewController+Puller.swift */; };
+		12090F0A2ACDE08D009D03FC /* CRMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F092ACDE08D009D03FC /* CRMButton.swift */; };
+		12090F0C2ACDE0A8009D03FC /* CRMRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F0B2ACDE0A8009D03FC /* CRMRadioButton.swift */; };
+		12090F0F2ACDE0C6009D03FC /* CRMTextFieldContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F0E2ACDE0C6009D03FC /* CRMTextFieldContainer.swift */; };
+		12090F122ACDE0E8009D03FC /* CRMNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F112ACDE0E8009D03FC /* CRMNavigationBar.swift */; };
+		12090F142ACDE0FF009D03FC /* CRMToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F132ACDE0FF009D03FC /* CRMToolBar.swift */; };
+		12090F172ACDE144009D03FC /* StickyHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F162ACDE144009D03FC /* StickyHeaderViewController.swift */; };
+		12090F192ACDE162009D03FC /* CRMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F182ACDE162009D03FC /* CRMTabBarController.swift */; };
+		12090F1B2ACDE180009D03FC /* CRMNavigationControllerConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F1A2ACDE180009D03FC /* CRMNavigationControllerConfigurable.swift */; };
+		12090F1D2ACDE195009D03FC /* CRMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F1C2ACDE195009D03FC /* CRMNavigationController.swift */; };
+		12090F202ACDE1BC009D03FC /* TabContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F1F2ACDE1BC009D03FC /* TabContainerViewController.swift */; };
+		12090F222ACDE1D5009D03FC /* TabControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F212ACDE1D5009D03FC /* TabControl.swift */; };
+		12090F242ACDE1F0009D03FC /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F232ACDE1F0009D03FC /* TabButton.swift */; };
+		12090F262ACDE205009D03FC /* TabItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F252ACDE205009D03FC /* TabItemModel.swift */; };
+		12090F2A2ACDE241009D03FC /* PullerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F292ACDE241009D03FC /* PullerViewController.swift */; };
+		12090F2C2ACDE260009D03FC /* PullerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F2B2ACDE260009D03FC /* PullerListTableViewController.swift */; };
+		12090F2E2ACDE27A009D03FC /* PullerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F2D2ACDE27A009D03FC /* PullerListViewController.swift */; };
+		12090F302ACDE299009D03FC /* UIViewController+PullerStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F2F2ACDE299009D03FC /* UIViewController+PullerStructure.swift */; };
+		12090F332ACDE2CB009D03FC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F322ACDE2CB009D03FC /* GradientView.swift */; };
 		12E07D822A909D1700A276DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07D812A909D1700A276DD /* AppDelegate.swift */; };
 		12E07D842A909D1700A276DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07D832A909D1700A276DD /* SceneDelegate.swift */; };
 		12E07D862A909D1700A276DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07D852A909D1700A276DD /* ViewController.swift */; };
@@ -97,6 +116,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12090F072ACDE04E009D03FC /* UIViewController+Puller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Puller.swift"; sourceTree = "<group>"; };
+		12090F092ACDE08D009D03FC /* CRMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMButton.swift; sourceTree = "<group>"; };
+		12090F0B2ACDE0A8009D03FC /* CRMRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMRadioButton.swift; sourceTree = "<group>"; };
+		12090F0E2ACDE0C6009D03FC /* CRMTextFieldContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMTextFieldContainer.swift; sourceTree = "<group>"; };
+		12090F112ACDE0E8009D03FC /* CRMNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMNavigationBar.swift; sourceTree = "<group>"; };
+		12090F132ACDE0FF009D03FC /* CRMToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMToolBar.swift; sourceTree = "<group>"; };
+		12090F162ACDE144009D03FC /* StickyHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderViewController.swift; sourceTree = "<group>"; };
+		12090F182ACDE162009D03FC /* CRMTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMTabBarController.swift; sourceTree = "<group>"; };
+		12090F1A2ACDE180009D03FC /* CRMNavigationControllerConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMNavigationControllerConfigurable.swift; sourceTree = "<group>"; };
+		12090F1C2ACDE195009D03FC /* CRMNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMNavigationController.swift; sourceTree = "<group>"; };
+		12090F1F2ACDE1BC009D03FC /* TabContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContainerViewController.swift; sourceTree = "<group>"; };
+		12090F212ACDE1D5009D03FC /* TabControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabControl.swift; sourceTree = "<group>"; };
+		12090F232ACDE1F0009D03FC /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		12090F252ACDE205009D03FC /* TabItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemModel.swift; sourceTree = "<group>"; };
+		12090F292ACDE241009D03FC /* PullerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullerViewController.swift; sourceTree = "<group>"; };
+		12090F2B2ACDE260009D03FC /* PullerListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullerListTableViewController.swift; sourceTree = "<group>"; };
+		12090F2D2ACDE27A009D03FC /* PullerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullerListViewController.swift; sourceTree = "<group>"; };
+		12090F2F2ACDE299009D03FC /* UIViewController+PullerStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+PullerStructure.swift"; sourceTree = "<group>"; };
+		12090F322ACDE2CB009D03FC /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		12E07D7E2A909D1700A276DD /* CRM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E07D812A909D1700A276DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12E07D832A909D1700A276DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -199,6 +237,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12090F052ACDE030009D03FC /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				12090F312ACDE2C0009D03FC /* Views */,
+				12090F152ACDE137009D03FC /* Controllers */,
+				12090F102ACDE0DC009D03FC /* Bars */,
+				12090F072ACDE04E009D03FC /* UIViewController+Puller.swift */,
+				12090F062ACDE041009D03FC /* Components */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		12090F062ACDE041009D03FC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				12090F0D2ACDE0B2009D03FC /* Controls */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		12090F0D2ACDE0B2009D03FC /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				12090F092ACDE08D009D03FC /* CRMButton.swift */,
+				12090F0B2ACDE0A8009D03FC /* CRMRadioButton.swift */,
+				12090F0E2ACDE0C6009D03FC /* CRMTextFieldContainer.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		12090F102ACDE0DC009D03FC /* Bars */ = {
+			isa = PBXGroup;
+			children = (
+				12090F112ACDE0E8009D03FC /* CRMNavigationBar.swift */,
+				12090F132ACDE0FF009D03FC /* CRMToolBar.swift */,
+			);
+			path = Bars;
+			sourceTree = "<group>";
+		};
+		12090F152ACDE137009D03FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				12090F272ACDE222009D03FC /* Puller */,
+				12090F1E2ACDE1AB009D03FC /* TabControl */,
+				12090F162ACDE144009D03FC /* StickyHeaderViewController.swift */,
+				12090F182ACDE162009D03FC /* CRMTabBarController.swift */,
+				12090F1A2ACDE180009D03FC /* CRMNavigationControllerConfigurable.swift */,
+				12090F1C2ACDE195009D03FC /* CRMNavigationController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		12090F1E2ACDE1AB009D03FC /* TabControl */ = {
+			isa = PBXGroup;
+			children = (
+				12090F1F2ACDE1BC009D03FC /* TabContainerViewController.swift */,
+				12090F212ACDE1D5009D03FC /* TabControl.swift */,
+				12090F232ACDE1F0009D03FC /* TabButton.swift */,
+				12090F252ACDE205009D03FC /* TabItemModel.swift */,
+			);
+			path = TabControl;
+			sourceTree = "<group>";
+		};
+		12090F272ACDE222009D03FC /* Puller */ = {
+			isa = PBXGroup;
+			children = (
+				12090F282ACDE22D009D03FC /* PullerContent */,
+				12090F292ACDE241009D03FC /* PullerViewController.swift */,
+			);
+			path = Puller;
+			sourceTree = "<group>";
+		};
+		12090F282ACDE22D009D03FC /* PullerContent */ = {
+			isa = PBXGroup;
+			children = (
+				12090F2B2ACDE260009D03FC /* PullerListTableViewController.swift */,
+				12090F2D2ACDE27A009D03FC /* PullerListViewController.swift */,
+				12090F2F2ACDE299009D03FC /* UIViewController+PullerStructure.swift */,
+			);
+			path = PullerContent;
+			sourceTree = "<group>";
+		};
+		12090F312ACDE2C0009D03FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12090F322ACDE2CB009D03FC /* GradientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		12E07D752A909D1700A276DD = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +346,7 @@
 		12E07D802A909D1700A276DD /* CRM */ = {
 			isa = PBXGroup;
 			children = (
+				12090F052ACDE030009D03FC /* UIKit */,
 				12E07DC12A90A1E500A276DD /* Network */,
 				12E07D962A909EC100A276DD /* Resources */,
 				12E07D952A909EBC00A276DD /* Sources */,
@@ -557,9 +686,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12090F332ACDE2CB009D03FC /* GradientView.swift in Sources */,
 				12E07DBC2A90A13A00A276DD /* AudioRecordServiceError.swift in Sources */,
 				12E07DFC2AA50FEC00A276DD /* TasksOperation.swift in Sources */,
 				12E07E152AA510FA00A276DD /* Request.swift in Sources */,
+				12090F222ACDE1D5009D03FC /* TabControl.swift in Sources */,
 				12E07DB22A90A0A800A276DD /* TaskService.swift in Sources */,
 				12E07E082AA5106B00A276DD /* TaskCommentListResponseModel.swift in Sources */,
 				12E07D862A909D1700A276DD /* ViewController.swift in Sources */,
@@ -568,6 +699,7 @@
 				12E07E322AA5195800A276DD /* CompanyCommentResponseModel.swift in Sources */,
 				12E07D992A909F1200A276DD /* ProductService.swift in Sources */,
 				12E07E182AA5111C00A276DD /* RequestProtocol.swift in Sources */,
+				12090F082ACDE04E009D03FC /* UIViewController+Puller.swift in Sources */,
 				12E07DBE2A90A15500A276DD /* NLPService.swift in Sources */,
 				12E07E0E2AA510A300A276DD /* TaskCommentResponseModel.swift in Sources */,
 				12E07E552AA51B5000A276DD /* DealCommentsListResponseModel.swift in Sources */,
@@ -578,24 +710,35 @@
 				12E07E112AA510CB00A276DD /* Service.swift in Sources */,
 				12E07D822A909D1700A276DD /* AppDelegate.swift in Sources */,
 				12E07E242AA5189300A276DD /* CompaniesListResponseModel.swift in Sources */,
+				12090F142ACDE0FF009D03FC /* CRMToolBar.swift in Sources */,
+				12090F122ACDE0E8009D03FC /* CRMNavigationBar.swift in Sources */,
+				12090F0C2ACDE0A8009D03FC /* CRMRadioButton.swift in Sources */,
 				12E07E4D2AA51B0600A276DD /* DealStatusChangeHistoryResponseModel.swift in Sources */,
 				12E07DAE2A90A08700A276DD /* CompanyService.swift in Sources */,
 				12E07E512AA51B2C00A276DD /* AddDealCommentRequestModel.swift in Sources */,
 				12E07E3D2AA51A7500A276DD /* CreateDealResponseModel.swift in Sources */,
 				12E07D9B2A909F4E00A276DD /* ContactService.swift in Sources */,
 				12E07DD92AA50CDA00A276DD /* Encodable+JSON.swift in Sources */,
+				12090F202ACDE1BC009D03FC /* TabContainerViewController.swift in Sources */,
 				12E07E492AA51AE000A276DD /* DealGeneralInfoResponseModel.swift in Sources */,
 				12E07DAC2A90A06000A276DD /* CompanyFilterEntity.swift in Sources */,
 				12E07E432AA51AAF00A276DD /* DealCardRequestModel.swift in Sources */,
+				12090F2E2ACDE27A009D03FC /* PullerListViewController.swift in Sources */,
 				12E07DB02A90A09800A276DD /* DealService.swift in Sources */,
 				12E07DB82A90A0FA00A276DD /* AudioRecordServiceProtocol.swift in Sources */,
 				12E07E132AA510E400A276DD /* ServiceProtocol.swift in Sources */,
+				12090F242ACDE1F0009D03FC /* TabButton.swift in Sources */,
 				12E07E4F2AA51B1700A276DD /* EditDealCommentRequestModel.swift in Sources */,
+				12090F0F2ACDE0C6009D03FC /* CRMTextFieldContainer.swift in Sources */,
 				12E07E572AA51B6300A276DD /* DealCommentResponseModel.swift in Sources */,
 				12E07DA82A90A03500A276DD /* TaskFilterEntity.swift in Sources */,
+				12090F262ACDE205009D03FC /* TabItemModel.swift in Sources */,
 				12E07E0A2AA5107C00A276DD /* CreateTaskCommentRequestModel.swift in Sources */,
+				12090F192ACDE162009D03FC /* CRMTabBarController.swift in Sources */,
+				12090F302ACDE299009D03FC /* UIViewController+PullerStructure.swift in Sources */,
 				12E07E392AA519B100A276DD /* DealsListResponseModel.swift in Sources */,
 				12E07DF62AA50F8000A276DD /* WebSocketMessageProtocol.swift in Sources */,
+				12090F2C2ACDE260009D03FC /* PullerListTableViewController.swift in Sources */,
 				12E07E1D2AA5180C00A276DD /* AuthorizationOperation.swift in Sources */,
 				12E07DC82A90A2BC00A276DD /* WelcomeCoordinator.swift in Sources */,
 				12E07DFE2AA5100C00A276DD /* TasksListResponseModel.swift in Sources */,
@@ -620,12 +763,17 @@
 				12E07DF32AA50F5300A276DD /* WebSocketClient.swift in Sources */,
 				12E07E282AA518FF00A276DD /* CompanyRequestModel.swift in Sources */,
 				12E07E372AA5199100A276DD /* DealsOperation.swift in Sources */,
+				12090F0A2ACDE08D009D03FC /* CRMButton.swift in Sources */,
+				12090F1D2ACDE195009D03FC /* CRMNavigationController.swift in Sources */,
 				12E07DC02A90A19000A276DD /* MessageService.swift in Sources */,
 				12E07DCA2A90A2D000A276DD /* AuthorizationCoordinator.swift in Sources */,
+				12090F1B2ACDE180009D03FC /* CRMNavigationControllerConfigurable.swift in Sources */,
 				12E07DA22A909FDB00A276DD /* DealEntity.swift in Sources */,
 				12E07DF92AA50FB900A276DD /* ListRequestModel.swift in Sources */,
 				12E07DE72AA50E6600A276DD /* NLPMessage.swift in Sources */,
+				12090F2A2ACDE241009D03FC /* PullerViewController.swift in Sources */,
 				12E07E532AA51B4000A276DD /* DeleteDealCommentRequestModel.swift in Sources */,
+				12090F172ACDE144009D03FC /* StickyHeaderViewController.swift in Sources */,
 				12E07DA42A90A00700A276DD /* DealFilterEntity.swift in Sources */,
 				12E07DF12AA50F3800A276DD /* WebSocketError.swift in Sources */,
 				12E07E412AA51A9A00A276DD /* UpdateDealStatusResponseModel.swift in Sources */,
