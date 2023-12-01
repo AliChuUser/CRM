@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TableFooter" customModule="Utility" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="2vc-uc-9lk" id="eQJ-d8-5J9"/>
+                <outlet property="container" destination="iN0-l3-epB" id="ipU-RG-mAK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Container">
+            <rect key="frame" x="0.0" y="0.0" width="740" height="132"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aQw-f1-ypN">
+                    <rect key="frame" x="20" y="-20" width="700" height="132"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2vc-uc-9lk">
+                            <rect key="frame" x="0.0" y="0.0" width="700" height="132"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="132" id="ITm-ma-HZZ"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="tapButton:" destination="-1" eventType="touchUpInside" id="AjK-Lc-wUJ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="2vc-uc-9lk" secondAttribute="trailing" id="EpG-Mz-hrD"/>
+                        <constraint firstAttribute="bottom" secondItem="2vc-uc-9lk" secondAttribute="bottom" id="Lcb-8r-4Fe"/>
+                        <constraint firstItem="2vc-uc-9lk" firstAttribute="top" secondItem="aQw-f1-ypN" secondAttribute="top" id="Pe4-dk-06e"/>
+                        <constraint firstItem="2vc-uc-9lk" firstAttribute="leading" secondItem="aQw-f1-ypN" secondAttribute="leading" id="YVb-uR-br3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="top" secondItem="aQw-f1-ypN" secondAttribute="top" constant="20" id="7Fa-A6-YL3"/>
+                <constraint firstAttribute="bottom" secondItem="aQw-f1-ypN" secondAttribute="bottom" constant="20" id="AsC-7a-Lcb"/>
+                <constraint firstItem="aQw-f1-ypN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="sbU-eB-1zC"/>
+                <constraint firstAttribute="trailing" secondItem="aQw-f1-ypN" secondAttribute="trailing" constant="20" id="yyf-d7-vII"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="56.521739130434788" y="-103.125"/>
+        </view>
+    </objects>
+</document>
