@@ -26,6 +26,14 @@
 		12090F2E2ACDE27A009D03FC /* PullerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F2D2ACDE27A009D03FC /* PullerListViewController.swift */; };
 		12090F302ACDE299009D03FC /* UIViewController+PullerStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F2F2ACDE299009D03FC /* UIViewController+PullerStructure.swift */; };
 		12090F332ACDE2CB009D03FC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090F322ACDE2CB009D03FC /* GradientView.swift */; };
+		128EC31E2B6AF98400793A5A /* UserDefaultsDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128EC31D2B6AF98400793A5A /* UserDefaultsDataProtocol.swift */; };
+		128EC3202B6AF99D00793A5A /* UserDefaultsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128EC31F2B6AF99D00793A5A /* UserDefaultsData.swift */; };
+		128EC3232B6AF9D500793A5A /* CacheStorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128EC3222B6AF9D500793A5A /* CacheStorageProtocol.swift */; };
+		128EC3252B6AF9F100793A5A /* CacheStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128EC3242B6AF9F100793A5A /* CacheStorage.swift */; };
+		128EC3282B6AFA2300793A5A /* DiskStorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128EC3272B6AFA2300793A5A /* DiskStorageProtocol.swift */; };
+		128EC32A2B6AFA3700793A5A /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128EC3292B6AFA3700793A5A /* DiskStorage.swift */; };
+		128EC32C2B6AFA7700793A5A /* Expiration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128EC32B2B6AFA7700793A5A /* Expiration.swift */; };
+		128EC32E2B6AFA8600793A5A /* Storageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128EC32D2B6AFA8600793A5A /* Storageable.swift */; };
 		12A2C1CF2B3F1962005197F8 /* CollectionViewStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2C1CE2B3F1962005197F8 /* CollectionViewStructure.swift */; };
 		12A2C1D22B3F197F005197F8 /* CollectionBaseCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2C1D12B3F197F005197F8 /* CollectionBaseCellModel.swift */; };
 		12A2C1D42B3F1991005197F8 /* CollectionBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2C1D32B3F1991005197F8 /* CollectionBaseCell.swift */; };
@@ -290,6 +298,14 @@
 		12090F2D2ACDE27A009D03FC /* PullerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullerListViewController.swift; sourceTree = "<group>"; };
 		12090F2F2ACDE299009D03FC /* UIViewController+PullerStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+PullerStructure.swift"; sourceTree = "<group>"; };
 		12090F322ACDE2CB009D03FC /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		128EC31D2B6AF98400793A5A /* UserDefaultsDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsDataProtocol.swift; sourceTree = "<group>"; };
+		128EC31F2B6AF99D00793A5A /* UserDefaultsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsData.swift; sourceTree = "<group>"; };
+		128EC3222B6AF9D500793A5A /* CacheStorageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheStorageProtocol.swift; sourceTree = "<group>"; };
+		128EC3242B6AF9F100793A5A /* CacheStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheStorage.swift; sourceTree = "<group>"; };
+		128EC3272B6AFA2300793A5A /* DiskStorageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskStorageProtocol.swift; sourceTree = "<group>"; };
+		128EC3292B6AFA3700793A5A /* DiskStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskStorage.swift; sourceTree = "<group>"; };
+		128EC32B2B6AFA7700793A5A /* Expiration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expiration.swift; sourceTree = "<group>"; };
+		128EC32D2B6AFA8600793A5A /* Storageable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storageable.swift; sourceTree = "<group>"; };
 		12A2C1CE2B3F1962005197F8 /* CollectionViewStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewStructure.swift; sourceTree = "<group>"; };
 		12A2C1D12B3F197F005197F8 /* CollectionBaseCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionBaseCellModel.swift; sourceTree = "<group>"; };
 		12A2C1D32B3F1991005197F8 /* CollectionBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionBaseCell.swift; sourceTree = "<group>"; };
@@ -701,6 +717,45 @@
 				12090F322ACDE2CB009D03FC /* GradientView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		128EC31B2B6AF96900793A5A /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				128EC3262B6AFA1200793A5A /* Disk */,
+				128EC3212B6AF9CA00793A5A /* Cache */,
+				128EC31C2B6AF97A00793A5A /* UserDefaults */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		128EC31C2B6AF97A00793A5A /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				128EC31D2B6AF98400793A5A /* UserDefaultsDataProtocol.swift */,
+				128EC31F2B6AF99D00793A5A /* UserDefaultsData.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		128EC3212B6AF9CA00793A5A /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				128EC3222B6AF9D500793A5A /* CacheStorageProtocol.swift */,
+				128EC3242B6AF9F100793A5A /* CacheStorage.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		128EC3262B6AFA1200793A5A /* Disk */ = {
+			isa = PBXGroup;
+			children = (
+				128EC3272B6AFA2300793A5A /* DiskStorageProtocol.swift */,
+				128EC3292B6AFA3700793A5A /* DiskStorage.swift */,
+				128EC32B2B6AFA7700793A5A /* Expiration.swift */,
+				128EC32D2B6AFA8600793A5A /* Storageable.swift */,
+			);
+			path = Disk;
 			sourceTree = "<group>";
 		};
 		12A2C1CD2B3F1956005197F8 /* CollectionStructure */ = {
@@ -1249,6 +1304,7 @@
 		12E07D802A909D1700A276DD /* CRM */ = {
 			isa = PBXGroup;
 			children = (
+				128EC31B2B6AF96900793A5A /* Storage */,
 				12D4ADCE2B1A52DD00C4030D /* Utility */,
 				12090F052ACDE030009D03FC /* UIKit */,
 				12E07DC12A90A1E500A276DD /* Network */,
@@ -1613,6 +1669,7 @@
 				12A2C27D2B3F1DB1005197F8 /* CrashReporter.m in Sources */,
 				12090F222ACDE1D5009D03FC /* TabControl.swift in Sources */,
 				12E07DB22A90A0A800A276DD /* TaskService.swift in Sources */,
+				128EC3202B6AF99D00793A5A /* UserDefaultsData.swift in Sources */,
 				12E07E082AA5106B00A276DD /* TaskCommentListResponseModel.swift in Sources */,
 				12E07D862A909D1700A276DD /* ViewController.swift in Sources */,
 				12E07DEF2AA50F0B00A276DD /* WebSocketConnection.swift in Sources */,
@@ -1635,6 +1692,7 @@
 				12E07E452AA51ABF00A276DD /* DealCardResponseModel.swift in Sources */,
 				12E07E472AA51ACF00A276DD /* DealGeneralInfoRequestModel.swift in Sources */,
 				12D1FB252AF2C5B600BD9FF0 /* ChartSurfaceSelectableProtocol.swift in Sources */,
+				128EC3282B6AFA2300793A5A /* DiskStorageProtocol.swift in Sources */,
 				12D4ADCD2B1A529700C4030D /* ChartCellModel.swift in Sources */,
 				12E07DD72AA50C8E00A276DD /* Reachability.swift in Sources */,
 				12A2C2762B3F1DB1005197F8 /* PLCrashAsyncDwarfCIE.cpp in Sources */,
@@ -1724,6 +1782,7 @@
 				12D4ADEE2B1A55B900C4030D /* LegendSummaryCellModel.swift in Sources */,
 				12D1FB102AF2C4A300BD9FF0 /* TableStyleProtocol.swift in Sources */,
 				12090F2C2ACDE260009D03FC /* PullerListTableViewController.swift in Sources */,
+				128EC32C2B6AFA7700793A5A /* Expiration.swift in Sources */,
 				12A2C2912B3F1DB1005197F8 /* PLCrashReportTextFormatter.m in Sources */,
 				12D1FADF2AF2C1EC00BD9FF0 /* ChartHorizontalAxisDataProviderProtocol.swift in Sources */,
 				12A2C1E52B3F1A45005197F8 /* UICollectionView+Structure.swift in Sources */,
@@ -1735,12 +1794,14 @@
 				12D4AE0C2B1A56BA00C4030D /* TextCellModel.swift in Sources */,
 				12A2C2752B3F1DB1005197F8 /* PLCrashAsyncMObject.c in Sources */,
 				12A2C27E2B3F1DB1005197F8 /* PLCrashAsyncMachOImage.c in Sources */,
+				128EC32E2B6AFA8600793A5A /* Storageable.swift in Sources */,
 				12A2C2982B3F1DB1005197F8 /* PLCrashAsyncDwarfCFAStateEvaluation.cpp in Sources */,
 				12E07E302AA5194700A276DD /* AddCompanyCommentRequestModel.swift in Sources */,
 				12D4ADE92B1A558900C4030D /* LegendCell.swift in Sources */,
 				12A2C1D92B3F19E0005197F8 /* String+NumberFormat.swift in Sources */,
 				12A2C2A42B3F1DB1005197F8 /* PLCrashAsyncThread_x86.c in Sources */,
 				12D1FB1C2AF2C53000BD9FF0 /* ChartGroupType.swift in Sources */,
+				128EC31E2B6AF98400793A5A /* UserDefaultsDataProtocol.swift in Sources */,
 				12D4ADF02B1A55CA00C4030D /* LegendSummaryCell.swift in Sources */,
 				12A2C2A12B3F1DB1005197F8 /* PLCrashMachExceptionServer.m in Sources */,
 				12E07DB62A90A0E200A276DD /* AudioRecordServiceDelegate.swift in Sources */,
@@ -1776,6 +1837,7 @@
 				12E07DEA2AA50EBC00A276DD /* WebSocketConfigurationProtocol.swift in Sources */,
 				12A2C2932B3F1DB1005197F8 /* PLCrashUncaughtExceptionHandler.m in Sources */,
 				12A2C2952B3F1DB1005197F8 /* PLCrashAsyncThread.c in Sources */,
+				128EC32A2B6AFA3700793A5A /* DiskStorage.swift in Sources */,
 				12E07E4B2AA51AF500A276DD /* DealStatusChangeHistoryRequestModel.swift in Sources */,
 				12E07DC42A90A28400A276DD /* BaseCoordinator.swift in Sources */,
 				12E07E2C2AA5192500A276DD /* CommentsListRequestModel.swift in Sources */,
@@ -1814,6 +1876,7 @@
 				12E07E532AA51B4000A276DD /* DeleteDealCommentRequestModel.swift in Sources */,
 				12090F172ACDE144009D03FC /* StickyHeaderViewController.swift in Sources */,
 				12D1FB392AF2C69900BD9FF0 /* TableLegendSurface.swift in Sources */,
+				128EC3232B6AF9D500793A5A /* CacheStorageProtocol.swift in Sources */,
 				12A2C29A2B3F1DB1005197F8 /* PLCrashAsyncObjCSection.mm in Sources */,
 				12E07DA42A90A00700A276DD /* DealFilterEntity.swift in Sources */,
 				12E07DF12AA50F3800A276DD /* WebSocketError.swift in Sources */,
@@ -1842,6 +1905,7 @@
 				12D1FB0D2AF2C47D00BD9FF0 /* LineBackgroundStyleProtocol.swift in Sources */,
 				12D1FAE12AF2C1FF00BD9FF0 /* ChartTableDataProviderProtocol.swift in Sources */,
 				12E07DE52AA50E5600A276DD /* NLPMessage.pb.swift in Sources */,
+				128EC3252B6AF9F100793A5A /* CacheStorage.swift in Sources */,
 				12E07DBA2A90A10A00A276DD /* AudioRecordService.swift in Sources */,
 				12A2C1E12B3F1A28005197F8 /* UIViewController+Alert.swift in Sources */,
 				12E07DC62A90A29A00A276DD /* ApplicationCoordinator.swift in Sources */,
