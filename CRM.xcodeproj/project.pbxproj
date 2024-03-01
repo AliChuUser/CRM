@@ -34,6 +34,8 @@
 		128EC32A2B6AFA3700793A5A /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128EC3292B6AFA3700793A5A /* DiskStorage.swift */; };
 		128EC32C2B6AFA7700793A5A /* Expiration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128EC32B2B6AFA7700793A5A /* Expiration.swift */; };
 		128EC32E2B6AFA8600793A5A /* Storageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128EC32D2B6AFA8600793A5A /* Storageable.swift */; };
+		129B03502B923FD200959663 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129B034F2B923FD200959663 /* Reachability.swift */; };
+		129B03522B923FEB00959663 /* Reachability+NetworkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129B03512B923FEB00959663 /* Reachability+NetworkType.swift */; };
 		12A2C1CF2B3F1962005197F8 /* CollectionViewStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2C1CE2B3F1962005197F8 /* CollectionViewStructure.swift */; };
 		12A2C1D22B3F197F005197F8 /* CollectionBaseCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2C1D12B3F197F005197F8 /* CollectionBaseCellModel.swift */; };
 		12A2C1D42B3F1991005197F8 /* CollectionBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2C1D32B3F1991005197F8 /* CollectionBaseCell.swift */; };
@@ -306,6 +308,8 @@
 		128EC3292B6AFA3700793A5A /* DiskStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskStorage.swift; sourceTree = "<group>"; };
 		128EC32B2B6AFA7700793A5A /* Expiration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expiration.swift; sourceTree = "<group>"; };
 		128EC32D2B6AFA8600793A5A /* Storageable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storageable.swift; sourceTree = "<group>"; };
+		129B034F2B923FD200959663 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		129B03512B923FEB00959663 /* Reachability+NetworkType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reachability+NetworkType.swift"; sourceTree = "<group>"; };
 		12A2C1CE2B3F1962005197F8 /* CollectionViewStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewStructure.swift; sourceTree = "<group>"; };
 		12A2C1D12B3F197F005197F8 /* CollectionBaseCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionBaseCellModel.swift; sourceTree = "<group>"; };
 		12A2C1D32B3F1991005197F8 /* CollectionBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionBaseCell.swift; sourceTree = "<group>"; };
@@ -758,6 +762,15 @@
 			path = Disk;
 			sourceTree = "<group>";
 		};
+		129B034E2B923FB900959663 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				129B034F2B923FD200959663 /* Reachability.swift */,
+				129B03512B923FEB00959663 /* Reachability+NetworkType.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 		12A2C1CD2B3F1956005197F8 /* CollectionStructure */ = {
 			isa = PBXGroup;
 			children = (
@@ -1178,6 +1191,7 @@
 		12D4ADCE2B1A52DD00C4030D /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				129B034E2B923FB900959663 /* Reachability */,
 				12A2C1D52B3F19BD005197F8 /* Extensions */,
 				12A2C1CD2B3F1956005197F8 /* CollectionStructure */,
 				12D4ADCF2B1A52EB00C4030D /* TableStructure */,
@@ -1660,6 +1674,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12D1FB012AF2C3C500BD9FF0 /* VerticalAxisStyleProtocol.swift in Sources */,
+				129B03522B923FEB00959663 /* Reachability+NetworkType.swift in Sources */,
 				12D1FAE32AF2C21800BD9FF0 /* ChartPercentageDataProviderProtocol.swift in Sources */,
 				12A2C28B2B3F1DB1005197F8 /* PLCrashFrameWalker.c in Sources */,
 				12090F332ACDE2CB009D03FC /* GradientView.swift in Sources */,
@@ -1682,6 +1697,7 @@
 				12090F082ACDE04E009D03FC /* UIViewController+Puller.swift in Sources */,
 				12A2C29D2B3F1DB1005197F8 /* PLCrashMachExceptionPort.m in Sources */,
 				12A2C2AD2B3F1DB1005197F8 /* PLCrashSysctl.c in Sources */,
+				129B03502B923FD200959663 /* Reachability.swift in Sources */,
 				12D1FAF22AF2C30700BD9FF0 /* TableChartStyle.swift in Sources */,
 				12E07DBE2A90A15500A276DD /* NLPService.swift in Sources */,
 				12E07E0E2AA510A300A276DD /* TaskCommentResponseModel.swift in Sources */,
